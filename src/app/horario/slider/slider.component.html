@@ -1,0 +1,15 @@
+<div class="container">
+    <app-cards
+        *ngFor="let clase of clases"
+        [clase]="clase"
+    ></app-cards>
+    <div class="flechas">
+        <a href="#" class="atras">&#10094;</a>
+        <a href="#" class="adelante">&#10095;</a>
+    </div>
+    <div class="ubicacion">
+        <span class="punto desactive"></span>
+        <span class="punto active"></span>
+        <span class="punto desactive"></span>
+    </div>
+</div>
